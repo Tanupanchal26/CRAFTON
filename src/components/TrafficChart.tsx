@@ -41,7 +41,7 @@ export default function TrafficChart({ data }: Props) {
     : [{ time: "--", packet_rate: 0, snr: 0 }];
 
   return (
-    <div className="bg-gray-900 border border-gray-700 rounded-xl p-5 shadow-lg">
+    <div>
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-white font-semibold text-lg">Traffic & SNR</h2>
         {!data && (

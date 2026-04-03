@@ -4,7 +4,7 @@ interface Props {
 
 export default function ControlPanel({ onInject }: Props) {
   return (
-    <div className="bg-gray-900 rounded-xl p-4">
+    <div>
       <h2 className="text-white font-semibold mb-3">Attack Injection</h2>
       <div className="flex gap-3">
         <button
